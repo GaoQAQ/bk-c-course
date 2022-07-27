@@ -1,0 +1,18 @@
+@import './bk-patch.css';
+
+/* 改变窗口大小，不走样 */
+body{
+    min-height: 600px;
+    min-width: 1000px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.center-content {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
